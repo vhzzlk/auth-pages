@@ -1,0 +1,83 @@
+@import url("./global.css");
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+section {
+  width: 49.2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  
+}
+
+h1 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+}
+.form-container > p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 22px;
+}
+
+form {
+   
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+fieldset {
+    margin-top: 4px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    height: 48px;
+    padding: 0 16px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    color: #101828;
+}
+
+.checkbox-fieldset {
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+button {
+    margin-top: 20px;
+    background-color: green;
+    color: #FFFFFF;
+    border-radius: 8px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    cursor: pointer;
+}
+
+img {
+  border: 1px solid blue;
+  width: 50.8%;
+}
